@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <meta charset='UTF-8'/>
-        <title>something</title>
-        <link rel='stylesheet' href='styles.css'/>
-    </head>
-    <body>
-        <header>
-            <div class='header-space'></div>
-            <div class='header-links'>
-                <div class='gmail'>
-                    <a>Gmail</a>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>sometshing</title>
+    <link rel='stylesheet' href='styles.css' />
+</head>
+
+<body>
+    <nav>
+        <!-- <ul></ul>
+        <div class='header-space'></div> -->
+        <ul class='nav-links'>
+            <li class='menu-word'>Gmail</li>
+            <li class='menu-word'>Images</li>
+            <li>
+                <div class='dot-padding'>
+                    <svg class="menu-dots" focusable="false" viewBox="0 0 24 24">
+                        <path d="M6,8c1.1,0 2,-0.9 2,
+                    -2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,
+                    0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
                 </div>
-                <div class='images'>
-                    <a>Images</a>
-                </div>
-                <div class='menu'>
-                    <svg class="gb_6e" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,
-                        -2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,
-                        0.9 -2,2 0.9,2 2,2z"></path></svg>
-                </div>
-            </div>
-        </header>
-        <h1>Change thisaaaaaaaaa</h1>
-        <img id="image" 
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAC0CAMAAABVJy5gAAADAFBMVEUAAAC3vq/TxKOIwrykyPmuz/yszvu31fq51/i42fuz1vyz1/
+            </li>
+        </ul>
+
+
+    </nav>
+    <h1>Change thisaaaaaaaaa asdf a df d asdf adfa daf adf adf adf adf sdfsad fasd fasd fasdf asd fasd fasd fasdf as
+        dfafasd fasdf asdf asd f</h1>
+    <img id="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAC0CAMAAABVJy5gAAADAFBMVEUAAAC3vq/TxKOIwrykyPmuz/yszvu31fq51/i42fuz1vyz1/
         2z2f6y2v+v2/71qn76uoX4pJLwoJHEo3ur3v5cjl2DhVCMf1A4ZTwyVSoiTB8jSBcEKgM/XDKh4/0ORxtrmIevz5HFuYG8ur7754hZke4zWSyT4/2K5vyN4/wLOQ0pVTg
         5bY1bh6m5veGYsL8oUSRHZCGmtrSLqM18l9lcj+hChfRAhfdMjPNsouhVkfFAhfcmUSErSiMtWCuM8f+W/P+Y3/cbQhkxZHRCgthlof2RpPevvKWQoWhqlt5JifA2gPwo
         ev42fvVDhvZChvZblfAsVCUdQAY2Xi+I7J2m//9TjWA6dKhDiv5Kkv+Llielmxc/hPb4uYk4tVtFolc2dj0zqFNfx359qYsKMxG7x4Tj4ET//1fn7V/5n5f7npSD7JouY
@@ -133,5 +138,6 @@
         yt5YB2B4ZdJWUXQFR90yhzrb3cOdg6WCkegFIeWmQY9ceh00LHm+hy3fb9+eohP+J9bzcayaRWaoC0OHRupMHOc73p5eoiNVFtmIWGaQ90j59C/0yThy4tTLLzuSmjrP9uRH++DwdnphTcp/gTb5wzQHGsfdfs0p//8/McZdVK5NN1Ib8ywVc/k2W+MnA56r6195kyoo+69qA/6M3HQmaDbGbqS89vnQH8MU3cx9lH7nCFAf0wY1DSJej17VjJngoooCLXPzRYul5q1U86EEMAYY4wxxhhjjDHGGGOMMXadf5MlBPywGO
         ZkAAAAAElFTkSuQmCC">
 
-    </body>
+</body>
+
 </html>

@@ -1,3 +1,4 @@
+/* RESETING CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,27 +43,56 @@ table {
 	border-spacing: 0;
 }
 * {
-	
 	box-sizing: border-box;
 }
-header {
-	display: flex;
-	
-	width: 100%;
-	
-	display: flex;
-	position: relative;
-	justify-content:space-between;
+
+/* THE GOOD STUFF */
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: rgba(0,0,0,0.87);
 }
-.header-space {
-	flex: 1 1 auto;
-	height: 48px;
+svg {
+	fill: #5f6368;;
+	/* opacity: 1; */
+}
+.nav-links {
+	display: flex;
+	/* justify-content: space-between; */
+	justify-content: space-around;
 	align-items: center;
+	/* border: 1px solid red; */
+	width: 165px;
+	height:48px;
+}
+
+nav {
+	display:flex;
+	justify-content: flex-end;
+	padding: 4px 8px 4px 8px;
+}
+
+
+.menu-dots {
+	width: 24px;
+	/* padding: 0px; */
 	
 }
-.header-links {
-	flex: 0 0 auto;
-	display: flex;
-	flex-direction: row;
-	
+.dot-padding {
+	/* padding: 4px 10px 0 10px; */
+	padding: 6px 7px 6px 7px;
+
+	border-radius: 300px;
+	/* border: 1px solid green; */
 }
+.dot-padding:hover {
+	background-color: rgba(60,64,67,0.1); /* .08 */
+	/
+}
+.menu-word:hover, .menu-word:focus {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
