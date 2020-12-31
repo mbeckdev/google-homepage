@@ -52,32 +52,44 @@ body {
 	font-size: 13px;
 	color: rgba(0,0,0,0.87);
 }
-svg {
-	fill: #5f6368;;
-	/* opacity: 1; */
-}
-.nav-links {
+
+
+.nav-links-left {
 	display: flex;
-	/* justify-content: space-between; */
 	justify-content: space-around;
 	align-items: center;
-	/* border: 1px solid red; */
-	width: 165px;
+	width: 105px;
 	height:48px;
+	/* border: 1px solid red; */
+	padding-left: 10px;
+}
+.nav-links-right {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 235px;
+	height:48px;
+	/* border: 1px solid green; */
 }
 
 nav {
 	display:flex;
-	justify-content: flex-end;
+	/* justify-content: flex-end; */
+	justify-content: space-between;
 	padding: 4px 8px 4px 8px;
 }
 
+.menu-word:hover, .menu-word:focus {
+	text-decoration: underline;
+	cursor: pointer;
+}
 
+/* DOTS */
 .menu-dots {
 	width: 24px;
-	/* padding: 0px; */
-	
+	fill: #5f6368;
 }
+
 .dot-padding {
 	/* padding: 4px 10px 0 10px; */
 	padding: 6px 7px 6px 7px;
@@ -85,13 +97,45 @@ nav {
 	border-radius: 300px;
 	/* border: 1px solid green; */
 }
+
 .dot-padding:hover {
 	background-color: rgba(60,64,67,0.1); /* .08 */
 	/
 }
-.menu-word:hover, .menu-word:focus {
-	text-decoration: underline;
-	cursor: pointer;
+/* SIGN IN BUTTON */
+.sign-in {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 0 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 28px;
+	white-space: nowrap;
+}
+
+/* SEARCH FIELD */
+.search-icon {
+	height: 20px;
+	fill: #9aa0a6;
+}
+.search-icon-span {
+  display: inline-block;
+}
+.search-field {
+	/* border:none; */
+	color: rgba(0,0,0,.87);
+	outline: none;
+	display: flex;
+	flex: 1 1 100%;
+	/* margin-top: -37px; */
+	font-size: 16px;
+	height: 34px;
+	line-height: 34px;
+	font: 16px arial, sans-serif;
+	cursor: text;
+
 }
 
 
