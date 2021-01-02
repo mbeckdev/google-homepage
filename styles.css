@@ -134,6 +134,8 @@ nav {
 	transition: height 0.4s ease,transform 0.4s ease,width 0.4s ease;
 	display: block;
 	margin: 0 auto;
+	padding-top: 109px;
+	padding-bottom: 30px;
 }
 
 /* SEARCH FIELD */
@@ -184,6 +186,7 @@ nav {
 .body-btn-container {
 	display: flex;
 	justify-content: center;
+	padding-top: 18px;
 }
 
 .body-btn {
@@ -285,12 +288,13 @@ form {
 	.footer-privacy {
 		order: 3;
 		width: 200px;
-		padding-right: 100px;
+		margin-right: 40px;
 	}
 
 	.footer-advertising {
 		order: 1;
 		width: 200px;
+		margin-left: 50px;
 	}
 }
 
