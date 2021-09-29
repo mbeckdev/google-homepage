@@ -2,6 +2,8 @@
 
 I remade the google homepage to practice using HTML and CSS. It doesn't work to search anything, but it looks just like it!
 
+[See it live!](https://mbeckdev.github.io/google-homepage/)
+
 ## Note to self - things to remember
 
 * Problem - footer was being written over everything when I shrunk the height.
